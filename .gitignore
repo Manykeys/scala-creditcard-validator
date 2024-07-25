@@ -1,0 +1,91 @@
+# Общие исключения
+.DS_Store
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Исключения для Python
+.env
+venv/
+ENV/
+env/
+venv/
+.env.*
+*.egg-info
+*.eggs
+*.dist-info
+pip-log.txt
+pip-delete-this-directory.txt
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Исключения для Scala
+*.class
+*.log
+*.target
+project/target/
+project/project/
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.pyc
+*.o
+*.a
+*.lib
+
+# Исключения для SBT
+target/
+lib_managed/
+src_managed/
+project/target/
+project/project/
+
+# Исключения для IntelliJ IDEA
+*.iml
+*.ipr
+*.iws
+.idea/
+.idea_modules/
+.idea/scala_compiler_server/
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+.idea/dictionaries/
+.idea/vcs.xml
+.idea/libraries/
+.idea/tasks.xml
+.idea/scalacOptions/
+.idea/jarRepositories.xml
+.idea/runConfigurations.xml
+.idea/compilerProfiles/
+.idea/dictionaries/
+.idea/shelf/
+.idea/httpRequests/
+.idea/deployment.xml
+
+# Исключения для Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
+
+
+# Исключения для Linux
+*~
